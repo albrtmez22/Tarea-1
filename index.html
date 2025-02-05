@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Liga MX: Campeones y Máximos Títulos 2025</title>
+    <style>
+        :root {
+            --primary-color: #0056b3;
+            --secondary-color: #28a745;
+            --bg-light: #f4f6f9;
+            --text-dark: #333;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-light);
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+            margin-bottom: 20px;
+            border-radius: 0 0 15px 15px;
+        }
+        .section {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+            padding: 25px;
+        }
+        .section h2 {
+            border-bottom: 3px solid var(--primary-color);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            color: var(--primary-color);
+        }
+        .champion-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .champion-card {
+            background-color: #f9f9f9;
+            border-left: 5px solid var(--secondary-color);
+            padding: 20px;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+        .champion-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #e0e0e0;
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background-color: var(--primary-color);
+            color: white;
+        }
+        ul {
+            list-style-type: none;
+        }
+        ul li {
+            padding: 10px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        ul li:last-child {
+            border-bottom: none;
+        }
+        .america-highlight {
+            background-color: #ffcc00;
+            color: black;
+            font-weight: bold;
+        }
+        @media (max-width: 768px) {
+            .champion-list {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Campeones de la Liga MX (2014-2025)</h1>
+        </div>
+
+        <div class="section">
+            <h2>Campeonatos Recientes del América</h2>
+            <div class="champion-list">
+                <div class="champion-card america-highlight">
+                    <h3>Clausura 2024</h3>
+                    <p>América</p>
+                    <p>Penales: 5-3</p>
+                </div>
+                <div class="champion-card america-highlight">
+                    <h3>Apertura 2023</h3>
+                    <p>América</p>
+                    <p>Marcador Global: 4-2</p>
+                </div>
+                <div class="champion-card america-highlight">
+                    <h3>Clausura 2023</h3>
+                    <p>América</p>
+                    <p>Penales: 4-2</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Otros Campeones Recientes</h2>
+            <div class="champion-list">
+                <div class="champion-card">
+                    <h3>Apertura 2024</h3>
+                    <p>León</p>
+                    <p>Marcador Global: 4-2</p>
+                </div>
+                <div class="champion-card">
+                    <h3>Apertura 2022</h3>
+                    <p>Atlas</p>
+                    <p>Marcador Global: 3-1</p>
+                </div>
+                <div class="champion-card">
+                    <h3>Clausura 2022</h3>
+                    <p>Pachuca</p>
+                    <p>Penales: 4-2</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Máximos Campeones de la Liga MX</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Equipo</th>
+                        <th>Títulos</th>
+                        <th>Último Campeonato</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>América</td>
+                        <td>15</td>
+                        <td>Clausura 2024</td>
+                    </tr>
+                    <tr>
+                        <td>Chivas</td>
+                        <td>12</td>
+                        <td>Apertura 2017</td>
+                    </tr>
+                    <tr>
+                        <td>Toluca</td>
+                        <td>10</td>
+                        <td>Apertura 2010</td>
+                    </tr>
+                    <tr>
+                        <td>Cruz Azul</td>
+                        <td>9</td>
+                        <td>Guardianes 2021</td>
+                    </tr>
+                    <tr>
+                        <td>Monterrey</td>
+                        <td>6</td>
+                        <td>Apertura 2023</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="section">
+            <h2>Datos Destacados</h2>
+            <ul>
+                <li>América alcanza 15 títulos, consolidándose como el equipo más ganador</li>
+                <li>Tres campeonatos consecutivos (Clausura 2023, Apertura 2023, Clausura 2024)</li>
+                <li>Atlas rompió su sequía de 70 años sin título en 2021</li>
+                <li>Cruz Azul terminó su sequía de 23 años sin campeonato en 2021</li>
+                <li>León y Monterrey emergen como equipos competitivos en los últimos años</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
